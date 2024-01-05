@@ -1,19 +1,35 @@
 import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
+import { name, version } from '../package.json'
 
 // Module options TypeScript interface definition
-export interface ModuleOptions {}
+export interface ModuleOptions {
+  hotjarId: string
+  scriptVersion: string
+  debug: boolean
+}
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: 'my-module',
-    configKey: 'myModule'
+    name,
+    version,
+    configKey: 'hotjar',
+    compatibility: {
+      nuxt: '^3',
+    },
   },
   // Default configuration options of the Nuxt module
-  defaults: {},
+  defaults: {
+    hotjarId: '',
+    scriptVersion: '6',
+    debug: false,
+  },
   setup (options, nuxt) {
-    const resolver = createResolver(import.meta.url)
+    const { resolve } = createResolver(import.meta.url)
 
-    // Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
-    addPlugin(resolver.resolve('./runtime/plugin'))
+    nuxt.options.runtimeConfig.public.hotjar = options
+
+    addPlugin({
+      src: resolve('runtime/plugin.ts'),
+    })
   }
 })
