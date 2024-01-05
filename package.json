@@ -5,6 +5,14 @@
   "repository": "https://github.com/damevin/nuxt-module-hotjar",
   "license": "MIT",
   "type": "module",
+  "publishConfig": {
+		"registry": "https://npm.pkg.github.com/damevin"
+	},
+	"author": {
+		"name": "Raphaël DAMEVIN",
+		"email": "raphael.damevin@gmail.com",
+		"url": "https://dame.vin"
+	},
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",
