@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-hotjar",
+  "name": "@damevin/nuxt-hotjar",
   "version": "1.1.0",
   "description": "Add HotJar to your Nuxt.js application",
   "repository": "https://github.com/damevin/nuxt-module-hotjar",
