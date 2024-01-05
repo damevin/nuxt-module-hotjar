@@ -1,5 +1,9 @@
 export default defineNuxtConfig({
   modules: ['../src/module'],
-  myModule: {},
+  hotjar: {
+    hotjarId: '1234537',
+    scriptVersion: '6',
+    debug: false
+  },
   devtools: { enabled: true }
 })
