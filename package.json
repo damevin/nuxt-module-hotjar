@@ -1,8 +1,8 @@
 {
-  "name": "my-module",
+  "name": "nuxt-hotjar",
   "version": "1.0.0",
-  "description": "My new Nuxt module",
-  "repository": "your-org/my-module",
+  "description": "Add HotJar to your Nuxt.js application",
+  "repository": "https://github.com/damevin/nuxt-module-hotjar",
   "license": "MIT",
   "type": "module",
   "exports": {
