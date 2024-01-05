@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v1.1.4
+
+[compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.1.3...v1.1.4)
+
+### 🩹 Fixes
+
+- 🐛  remove token ([cc049a9](https://github.com/damevin/nuxt-module-hotjar/commit/cc049a9))
+
+### 📖 Documentation
+
+- 📝  update documentation ([e39317f](https://github.com/damevin/nuxt-module-hotjar/commit/e39317f))
+
+### 🏡 Chore
+
+- **release:** V1.1.3 ([872559e](https://github.com/damevin/nuxt-module-hotjar/commit/872559e))
+
+### ❤️ Contributors
+
+- Damevin <r.damevin@lehibou.com>
+
 ## v1.1.3
 
 [compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.1.2...v1.1.3)
