@@ -3,7 +3,7 @@ Get your module up and running quickly.
 
 Find and replace all on all files (CMD+SHIFT+F):
 - Name: My Module
-- Package name: @damevin/nuxt-hotjar
+- Package name: @damevin/nuxt-module-hotjar
 - Description: My new Nuxt module
 -->
 
@@ -21,25 +21,25 @@ Find and replace all on all files (CMD+SHIFT+F):
 
 ## Quick Setup
 
-1. Add `@damevin/nuxt-hotjar` dependency to your project
+1. Add `@damevin/nuxt-module-hotjar` dependency to your project
 
 ```bash
 # Using pnpm
-pnpm add -D @damevin/nuxt-hotjar
+pnpm add -D @damevin/nuxt-module-hotjar
 
 # Using yarn
-yarn add --dev @damevin/nuxt-hotjar
+yarn add --dev @damevin/nuxt-module-hotjar
 
 # Using npm
-npm install --save-dev @damevin/nuxt-hotjar
+npm install --save-dev @damevin/nuxt-module-hotjar
 ```
 
-2. Add `@damevin/nuxt-hotjar` to the `modules` section of `nuxt.config.ts`
+2. Add `@damevin/nuxt-module-hotjar` to the `modules` section of `nuxt.config.ts`
 
 ```js
 export default defineNuxtConfig({
   modules: [
-    '@damevin/nuxt-hotjar'
+    '@damevin/nuxt-module-hotjar'
   ],
 
 
@@ -83,14 +83,14 @@ npm run release
 ```
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@damevin/nuxt-hotjar/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-version-href]: https://npmjs.com/package/@damevin/nuxt-hotjar
+[npm-version-src]: https://img.shields.io/npm/v/@damevin/nuxt-module-hotjar/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/@damevin/nuxt-module-hotjar
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/@damevin/nuxt-hotjar.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-downloads-href]: https://npmjs.com/package/@damevin/nuxt-hotjar
+[npm-downloads-src]: https://img.shields.io/npm/dm/@damevin/nuxt-module-hotjar.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-href]: https://npmjs.com/package/@damevin/nuxt-module-hotjar
 
-[license-src]: https://img.shields.io/npm/l/@damevin/nuxt-hotjar.svg?style=flat&colorA=18181B&colorB=28CF8D
-[license-href]: https://npmjs.com/package/@damevin/nuxt-hotjar
+[license-src]: https://img.shields.io/npm/l/@damevin/nuxt-module-hotjar.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://npmjs.com/package/@damevin/nuxt-module-hotjar
 
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
 [nuxt-href]: https://nuxt.com

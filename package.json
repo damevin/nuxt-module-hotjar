@@ -1,13 +1,14 @@
 {
-  "name": "@damevin/nuxt-module-hotjar",
+  "name": "nuxt-module-hotjar",
   "version": "1.1.2",
   "description": "Add HotJar to your Nuxt.js application",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/damevin/nuxt-module-hotjar.git"
   },
+  "private": false,
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/"
   },
   "license": "MIT",
   "type": "module",
@@ -52,5 +53,11 @@
   "bugs": {
     "url": "https://github.com/damevin/nuxt-module-hotjar/issues"
   },
-  "homepage": "https://github.com/damevin/nuxt-module-hotjar#readme"
+  "homepage": "https://github.com/damevin/nuxt-module-hotjar#readme",
+  "keywords": [
+    "hotjar",
+    "nuxt",
+    "typescript",
+    "nuxt-module"
+  ]
 }
