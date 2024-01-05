@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v1.1.1
+
+[compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.1.0...v1.1.1)
+
+### 🩹 Fixes
+
+- 🐛  update module name ([e89ab37](https://github.com/damevin/nuxt-module-hotjar/commit/e89ab37))
+
+### 🏡 Chore
+
+- **release:** V1.1.0 ([5443502](https://github.com/damevin/nuxt-module-hotjar/commit/5443502))
+- 🔧  add author, fix publish config ([0669b4c](https://github.com/damevin/nuxt-module-hotjar/commit/0669b4c))
+
+### ❤️ Contributors
+
+- Damevin <r.damevin@lehibou.com>
+
 ## v1.1.0
 
 
