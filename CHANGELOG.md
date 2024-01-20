@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.1.5
+
+[compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.1.4...v1.1.5)
+
+### 🩹 Fixes
+
+- Remove useless ticks ([45bbea9](https://github.com/damevin/nuxt-module-hotjar/commit/45bbea9))
+
+### ❤️ Contributors
+
+- Damevin <raphael@dame.vin>
+
 ## v1.1.4
 
 [compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.1.3...v1.1.4)
