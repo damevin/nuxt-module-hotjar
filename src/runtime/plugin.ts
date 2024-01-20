@@ -43,7 +43,7 @@ export default defineNuxtPlugin(() => {
     return
 
  
-  window.onload = () => {``
+  window.onload = () => {
     loadHotjarScript(
       'https://static.hotjar.com/c/hotjar-',
       options.hotjarId,
