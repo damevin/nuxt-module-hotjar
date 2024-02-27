@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.2.1
+
+[compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.2.0...v1.2.1)
+
+### 🏡 Chore
+
+- Update to Nuxt 3.10 ([86fff3f](https://github.com/damevin/nuxt-module-hotjar/commit/86fff3f))
+
+### ❤️ Contributors
+
+- Damevin <raphael@dame.vin>
+
 ## v1.2.0
 
 [compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.1.5...v1.2.0)
