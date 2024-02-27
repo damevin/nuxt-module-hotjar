@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v1.2.0
+
+[compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.1.5...v1.2.0)
+
+### 🚀 Enhancements
+
+- Update way to load script, use Hotjar lib ([f313807](https://github.com/damevin/nuxt-module-hotjar/commit/f313807))
+
+### 🩹 Fixes
+
+- Update config for playground ([8ddea54](https://github.com/damevin/nuxt-module-hotjar/commit/8ddea54))
+
+### 🏡 Chore
+
+- Add Hotjar module ([d36f0b9](https://github.com/damevin/nuxt-module-hotjar/commit/d36f0b9))
+
+### ❤️ Contributors
+
+- Damevin <raphael@dame.vin>
+
 ## v1.1.5
 
 [compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.1.4...v1.1.5)
