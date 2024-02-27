@@ -3,8 +3,8 @@ import { name, version } from '../package.json'
 
 // Module options TypeScript interface definition
 export interface ModuleOptions {
-  hotjarId: string
-  scriptVersion: string
+  hotjarId: number
+  scriptVersion: number
   debug: boolean
 }
 
@@ -19,8 +19,8 @@ export default defineNuxtModule<ModuleOptions>({
   },
   // Default configuration options of the Nuxt module
   defaults: {
-    hotjarId: '',
-    scriptVersion: '6',
+    hotjarId: 1234567,
+    scriptVersion: 6,
     debug: false,
   },
   setup (options, nuxt) {
