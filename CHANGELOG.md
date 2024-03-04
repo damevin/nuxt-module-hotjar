@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.2.2
+
+[compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.2.1...v1.2.2)
+
+### 🩹 Fixes
+
+- Plugin init on client side for prevent crash ([b011641](https://github.com/damevin/nuxt-module-hotjar/commit/b011641))
+
+### ❤️ Contributors
+
+- Damevin <raphael@dame.vin>
+
 ## v1.2.1
 
 [compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.2.0...v1.2.1)
