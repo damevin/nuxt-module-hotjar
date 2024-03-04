@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   hotjar: {
     hotjarId: 1234533,
     scriptVersion: 6,
-    debug: false
+    debug: true
   },
   devtools: { enabled: true }
 })
