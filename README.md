@@ -24,14 +24,7 @@ Find and replace all on all files (CMD+SHIFT+F):
 1. Add `nuxt-module-hotjar` dependency to your project
 
 ```bash
-# Using pnpm
-pnpm add -D nuxt-module-hotjar
-
-# Using yarn
-yarn add --dev nuxt-module-hotjar
-
-# Using npm
-npm install --save-dev nuxt-module-hotjar
+npx nuxi@latest module add hotjar
 ```
 
 2. Add `nuxt-module-hotjar` to the `modules` section of `nuxt.config.ts`
