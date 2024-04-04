@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v1.2.5
+
+[compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.2.4...v1.2.5)
+
 ## v1.2.4
 
 [compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.2.3...v1.2.4)
