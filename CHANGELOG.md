@@ -1,6 +1,29 @@
 # Changelog
 
 
+## v1.2.3
+
+[compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.2.2...v1.2.3)
+
+### 🩹 Fixes
+
+- 🐛  fix isDev bug whem options debug is setted ([dea80a7](https://github.com/damevin/nuxt-module-hotjar/commit/dea80a7))
+
+### 📖 Documentation
+
+- Use new `nuxi module add` command in installation ([0830653](https://github.com/damevin/nuxt-module-hotjar/commit/0830653))
+
+### 🏡 Chore
+
+- **deps-dev:** Bump undici from 5.28.2 to 5.28.3 ([475b202](https://github.com/damevin/nuxt-module-hotjar/commit/475b202))
+- **release:** V1.2.2 ([81cc9c9](https://github.com/damevin/nuxt-module-hotjar/commit/81cc9c9))
+- **deps-dev:** Bump vite from 4.5.2 to 4.5.3 ([7d6fff5](https://github.com/damevin/nuxt-module-hotjar/commit/7d6fff5))
+
+### ❤️ Contributors
+
+- Damevin <raphael@dame.vin>
+- Daniel Roe ([@danielroe](http://github.com/danielroe))
+
 ## v1.2.2
 
 [compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.2.1...v1.2.2)
