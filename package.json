@@ -37,18 +37,18 @@
   },
   "dependencies": {
     "@hotjar/browser": "^1.0.9",
-    "@nuxt/kit": "^3.9.0"
+    "@nuxt/kit": "^3.11.2"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxt/module-builder": "^0.5.5",
-    "@nuxt/schema": "^3.9.0",
-    "@nuxt/test-utils": "^3.9.0",
-    "@types/node": "^20.10.6",
+    "@nuxt/schema": "^3.11.2",
+    "@nuxt/test-utils": "^3.12.1",
+    "@types/node": "^20.12.7",
     "changelogen": "^0.5.5",
-    "eslint": "^8.56.0",
-    "nuxt": "^3.10.3",
+    "eslint": "^8.57.0",
+    "nuxt": "^3.11.2",
     "vitest": "^0.33.0"
   },
   "bugs": {
