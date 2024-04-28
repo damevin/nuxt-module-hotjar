@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v1.2.6
+
+[compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.2.5...v1.2.6)
+
+### 🏡 Chore
+
+- **deps-dev:** Bump undici from 5.28.3 to 5.28.4 ([7e686d1](https://github.com/damevin/nuxt-module-hotjar/commit/7e686d1))
+- ⬆️  upgrade nuxt, nuxt-module, eslint ([84a77d6](https://github.com/damevin/nuxt-module-hotjar/commit/84a77d6))
+
+### ❤️ Contributors
+
+- Damevin <raphael@dame.vin>
+
 ## v1.2.5
 
 [compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.2.4...v1.2.5)
