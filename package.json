@@ -1,6 +1,6 @@
 {
   "name": "nuxt-module-hotjar",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "Add HotJar to your Nuxt.js application",
   "repository": {
     "type": "git",

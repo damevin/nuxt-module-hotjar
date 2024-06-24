@@ -1,6 +1,21 @@
 # Changelog
 
 
+## v1.2.7
+
+[compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.2.6...v1.2.7)
+
+### 🏡 Chore
+
+- **release:** V1.2.6 ([cf00f7a](https://github.com/damevin/nuxt-module-hotjar/commit/cf00f7a))
+- Indicate compatibility with new v4 major ([d1fb950](https://github.com/damevin/nuxt-module-hotjar/commit/d1fb950))
+- **deps-dev:** Bump ws from 8.16.0 to 8.17.1 ([53e9990](https://github.com/damevin/nuxt-module-hotjar/commit/53e9990))
+
+### ❤️ Contributors
+
+- Daniel Roe ([@danielroe](http://github.com/danielroe))
+- Damevin <raphael@dame.vin>
+
 ## v1.2.6
 
 [compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.2.5...v1.2.6)
