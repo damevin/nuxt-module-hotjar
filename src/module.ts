@@ -1,9 +1,10 @@
-import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
+import { defu } from 'defu'
+import { defineNuxtModule, createResolver, addImports } from '@nuxt/kit'
 import { name, version } from '../package.json'
 
 // Module options TypeScript interface definition
 export interface ModuleOptions {
-  hotjarId: number
+  hotjarId?: number
   scriptVersion: number
   debug: boolean
 }
@@ -20,7 +21,7 @@ export default defineNuxtModule<ModuleOptions>({
   
   // Default configuration options of the Nuxt module
   defaults: {
-    hotjarId: 1234567,
+    hotjarId: undefined,
     scriptVersion: 6,
     debug: false,
   },
@@ -28,13 +29,19 @@ export default defineNuxtModule<ModuleOptions>({
   setup (options, nuxt) {
     const { resolve } = createResolver(import.meta.url)
 
-    nuxt.options.runtimeConfig.public.hotjar = options
+    nuxt.options.runtimeConfig.public.hotjar = defu(
+      nuxt.options.runtimeConfig.public.hotjar,
+      options,
+    )
 
     nuxt.options.build.transpile.push(resolve('runtime'))
 
-    addPlugin({
-      src: resolve('runtime/plugin.client'),
-      mode: 'client',
-    })
+    addImports([
+      'useHotjar',
+    ].map(name => ({
+      name,
+      as: name,
+      from: resolve(`runtime/composables/${name}`),
+    })))
   }
 })
