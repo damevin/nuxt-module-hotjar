@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   modules: ['../src/module'],
   hotjar: {
-    hotjarId: 1234533,
+    hotjarId: 1234567,
     scriptVersion: 6,
     debug: true
   },

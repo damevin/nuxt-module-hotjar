@@ -37,7 +37,8 @@
   },
   "dependencies": {
     "@hotjar/browser": "^1.0.9",
-    "@nuxt/kit": "^3.11.2"
+    "@nuxt/kit": "^3.11.2",
+    "defu": "^6.1.4"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
