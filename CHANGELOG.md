@@ -1,6 +1,29 @@
 # Changelog
 
 
+## v1.3.0
+
+[compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.2.7...v1.3.0)
+
+### 🚀 Enhancements
+
+- ✨  use composable instead of plugin for manually init the script ([d5ad0f8](https://github.com/damevin/nuxt-module-hotjar/commit/d5ad0f8))
+
+### 📖 Documentation
+
+- 📝  improve README ([8a72567](https://github.com/damevin/nuxt-module-hotjar/commit/8a72567))
+- 📝  update playground ([c65483f](https://github.com/damevin/nuxt-module-hotjar/commit/c65483f))
+
+### 🏡 Chore
+
+- **release:** V1.2.7 ([233016e](https://github.com/damevin/nuxt-module-hotjar/commit/233016e))
+- ➕  add defu ([8cf0a60](https://github.com/damevin/nuxt-module-hotjar/commit/8cf0a60))
+- 🔧  add compilerOptions ([b361808](https://github.com/damevin/nuxt-module-hotjar/commit/b361808))
+
+### ❤️ Contributors
+
+- Damevin <raphael@dame.vin>
+
 ## v1.2.7
 
 [compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.2.6...v1.2.7)
