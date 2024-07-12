@@ -4,12 +4,9 @@
     <button @click="initialize">
       Toggle HotJar
     </button>
-
-
-    {{ hotjarIsActive ? 'Hotjar is active' : 'Hotjar is not active' }}
   </div>
 </template>
 
 <script setup>
-const { initialize, hotjarIsActive } = useHotjar()
+const { initialize } = useHotjar()
 </script>

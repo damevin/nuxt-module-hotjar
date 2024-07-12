@@ -72,19 +72,17 @@ function onConsent() {
 The SSR-safe `useHotjar` composable provides access to:
 
 - The initialize method
-- The ref variable `isHotjarEnabled` if you want to check if Hotjar is enabled
 
 You can use it like this:
 
 ```ts
-const { initialize, isHotjarEnabled } = useHotjar()
+const { initialize } = useHotjar()
 ```
 ### Types declarations
 
 ```ts
 function useHotjar(): {
   initialize: () => void
-  isHotjarEnabled: Ref<boolean>
 }
 ```
 
