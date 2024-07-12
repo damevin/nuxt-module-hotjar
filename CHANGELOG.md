@@ -3,6 +3,10 @@
 
 ## v1.3.2
 
+[compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.3.2...v1.3.2)
+
+## v1.3.2
+
 [compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.3.1...v1.3.2)
 
 ## v1.3.1
