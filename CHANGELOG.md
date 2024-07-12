@@ -1,6 +1,24 @@
 # Changelog
 
 
+## v1.3.1
+
+[compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.3.0...v1.3.1)
+
+### 🩹 Fixes
+
+- Ref is undefined bug ([fcf416c](https://github.com/damevin/nuxt-module-hotjar/commit/fcf416c))
+- Banner link ([bb6b2a5](https://github.com/damevin/nuxt-module-hotjar/commit/bb6b2a5))
+
+### 🏡 Chore
+
+- **release:** V1.3.0 ([dcf7c4e](https://github.com/damevin/nuxt-module-hotjar/commit/dcf7c4e))
+
+### ❤️ Contributors
+
+- Raphaeldamevin ([@damevin](http://github.com/damevin))
+- Damevin <raphael@dame.vin>
+
 ## v1.3.0
 
 [compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.2.7...v1.3.0)
