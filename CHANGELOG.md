@@ -1,6 +1,21 @@
 # Changelog
 
 
+## v1.3.2
+
+[compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.3.2...v1.3.2)
+
+### 🏡 Chore
+
+- **release:** V1.3.2 ([336da9b](https://github.com/damevin/nuxt-module-hotjar/commit/336da9b))
+- **release:** V1.3.1 ([be606f8](https://github.com/damevin/nuxt-module-hotjar/commit/be606f8))
+- **deps-dev:** Bump @nuxt/devtools from 1.0.8 to 1.3.9 ([81d6847](https://github.com/damevin/nuxt-module-hotjar/commit/81d6847))
+- Update deps ([de87f35](https://github.com/damevin/nuxt-module-hotjar/commit/de87f35))
+
+### ❤️ Contributors
+
+- Damevin <raphael@dame.vin>
+
 ## v1.3.1
 
 [compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.3.2...v1.3.1)
