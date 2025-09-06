@@ -34,20 +34,20 @@
   },
   "dependencies": {
     "@hotjar/browser": "^1.0.9",
-    "@nuxt/kit": "^3.17.0",
+    "@nuxt/kit": "^4.1.1",
     "defu": "^6.1.4"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@nuxt/eslint-config": "^1.3.0",
-    "@nuxt/module-builder": "^1.0.1",
-    "@nuxt/schema": "^3.17.0",
-    "@nuxt/test-utils": "^3.17.2",
-    "@types/node": "^20.17.32",
-    "changelogen": "^0.6.1",
-    "eslint": "^9.25.1",
-    "nuxt": "^3.17.0",
-    "vitest": "^3.1.2"
+    "@nuxt/eslint-config": "^1.9.0",
+    "@nuxt/module-builder": "^1.0.2",
+    "@nuxt/schema": "^4.1.1",
+    "@nuxt/test-utils": "^3.19.2",
+    "@types/node": "^20.19.13",
+    "changelogen": "^0.6.2",
+    "eslint": "^9.35.0",
+    "nuxt": "^4.1.1",
+    "vitest": "^3.2.4"
   },
   "bugs": {
     "url": "https://github.com/damevin/nuxt-module-hotjar/issues"
@@ -58,5 +58,6 @@
     "nuxt",
     "typescript",
     "nuxt-module"
-  ]
+  ],
+  "packageManager": "pnpm@10.11.0+sha512.6540583f41cc5f628eb3d9773ecee802f4f9ef9923cc45b69890fb47991d4b092964694ec3a4f738a420c918a333062c8b925d312f42e4f0c263eb603551f977"
 }
