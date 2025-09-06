@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.3.4
+
+[compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.3.3...v1.3.4)
+
+### 🏡 Chore
+
+- Update dependencies, nuxt 4 compatibility ([2e80cd4](https://github.com/damevin/nuxt-module-hotjar/commit/2e80cd4))
+
+### ❤️ Contributors
+
+- Raphaeldamevin ([@damevin](https://github.com/damevin))
+
 ## v1.3.3
 
 [compare changes](https://github.com/damevin/nuxt-module-hotjar/compare/v1.3.2...v1.3.3)
